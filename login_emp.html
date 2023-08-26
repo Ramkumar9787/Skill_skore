@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill skore | know more skills</title>
+    <link rel="stylesheet" href="./resouces/login_page_employer/css/style.css">
+    <link rel="stylesheet" href="./resouces/login_page_employer/css/header.css">
+    <link rel="stylesheet" href="./resouces/landing_page/css/popup.css">
+    <link rel="stylesheet" href="./resouces/login_page_employer/css/footer.css">
+    <link rel="stylesheet" href="https://internshala.com/static/css/home/index.1621498208.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+      <!--popup-->
+      <div class="overlay">
+      </div>
+          <div class="main-popup">
+           
+              <div id="popup-close-button"><a href="#"></a></div>
+             
+          <div class="popup-content" id="main">
+          <form class="sign-in" style="padding-top: 8%;" id="emplogin">
+              <div>
+                <label for="email">Email:</label>
+                <input type="text" id="log_email" placeholder="john@example.com" autocomplete="off">
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="log_password" autocomplete="off" placeholder="Must be atleast 6 characters">
+            </div>
+              <div class="link">
+              <a href="">Forgot Password?</a>
+              </div>
+            <div>
+              <input type="button" id="submit" value="Login">
+            </div>
+              <div class="btmclass">
+                  <p>New to skill skore? Register (<a href="./login_student.html"><b>Student</b> </a>/ <a href="./login_emp.html"><b>Company</b></a>)</p>
+              </div>
+            </form>
+          </div><!--.popup-content-->
+      </div><!--.main-popup-->
+      <!--End popup-->
+
+
+     <!-- middle section- start -->
+
+    <main>
+        <div id="middle">
+            <div id="max-width-cont">
+                <div class="midCont">
+                    <!-- middle area, over the bg img text, for left side--start -->
+                <div class="midText">
+                    <p>Get your correct job</p>
+                    <p>Register and know your right job!</p>
+                </div>
+                <!-- middle area, over the bg img text, for left side--end -->
+
+                <!-- middle area, right side--start -->
+                <div id="rightSide">
+                    <div id="formCont">
+                        <!-- form --start -->
+                        <div class="form" id="emp_form">
+                            <!-- form section 1 -->
+                            <div class="formGroup">
+                                <label for="email">Official Email Id </label>
+                                <div>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="name@company_name.com">
+                                </div>
+                            </div>
+                            <!-- form section 2 -->
+                           <div class="formGroup">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Minimum 6 characters">
+                            </div>
+                            <!-- form section 3 -->
+                           <div class="nameRow">
+                                <div class="formCol" id="first_name_container">
+                                    <div class="formGroup">
+                                        <label for="first_name">First Name</label>
+                                        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Your First Name">
+                                    </div>
+                                </div>
+                                <div class="formCol" id="last_name_container">
+                                    <div class="formGroup">
+                                        <label for="last_name">Last Name</label>
+                                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Your Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- form section 4 -->
+                           <div class="formGroup">
+                                <label for="phone_primary">Mobile Number</label>
+                                <div class="nameRow" id="phone_container">
+                                    <div class="formCol col-3">
+                                        <input type="text" disabled="disabled" class="form-control" id="country_code" name="country_code" value="+91">
+                                    </div>
+                                    <div class="formCol col-9">
+                                        <input type="tel" class="form-control" id="phone_primary" minlength="10" maxlength="10" name="phone_primary" placeholder="10 digit mobile number">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- form section 5-extras -->
+                            <div id="jobRegExtra" >
+                                <div class="label_toc">
+                                    <span>
+                                        By registering, you agree to our <a href="#" >Terms and Conditions</a>.
+                                    </span>
+                                </div>
+                                <div id="internship_registration_button_container">
+                                    <div id="job_employer_registration_button">
+                                        <button type="submit" class="btn btn-primary" id="emp_res">Register Now</button>
+                                    </div>
+                                    <div class="label_toc_2">
+                                      <nav class="header">
+                                        <div class="height-cont">
+                                            <div class="navFlex">
+                                                <div class="btn">
+                                                       <div><button class="btnLogin" id="loginBtn"> <a href="file:///E:/psg%20hackathon/edushala-master/edushala-master/student-dashboard-login.html">Login </a>    </button></div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- form section 5-extras-end -->
+                        </div>
+                        <!-- form --end -->
+                    </div>
+                </div>
+                <!-- middle area, right side--start -->
+                </div>
+            </div>
+        </div>
+        <div class="hiring">
+            <div class="heading"><p>Know your right job</p></div>
+            <div class="hireCardCont">
+                <div class="hireCard">
+                    <img src="./resouces/login_page_employer/image/hire1.png" alt="">
+                    <p>1. Register</p>
+                    <p>Get started by creating your account</p>
+                </div>
+                <div class="hireCard">
+                    <img src="./resouces/login_page_employer/image/hire2.png" alt="">
+                    <p>2. Skills</p>
+                    <p>Post your skills to get right job</p>
+                </div>
+                <div class="hireCard">
+                    <img src="./resouces/login_page_employer/image/hire3.png" alt="">
+                    <p>3. Job</p>
+                    <p>Identify the list of skills needed to qualify for your dream job</p>
+                </div>
+    
+
+            <!-- ------------------imported carousel code-start---------------- -->
+
+        </div>
+        <!-- company div including testimonials--end -->
+        <div class="register">
+            <button>Register Now</button>
+        </div>
+
+    </main>
+
+    <!-- middle section- end -->
+
+    <!-- footer section- start -->
+
+    <footer>
+        
+    </footer>
+
+    <!-- footer section- end -->
+</div>
+</body>
+<script type="text/javascript" src="./resouces/landing_page/js/popup.js"></script>
+</html>
+
+
+<script>
+  var arr = JSON.parse(localStorage.getItem('emplogin'));
+  var empButton = document.getElementById("emp_res");
+  empButton.addEventListener('click',addFunction);
+
+  function addFunction()
+  {
+    
+    
+    var empForm = document.getElementById("emp_form");
+    var email = empForm.querySelector('input[id="email"]');
+    var Password = empForm.querySelector('input[id="Password"]');
+    var first_name = empForm.querySelector('input[id="first_name"]');
+    var last_name = empForm.querySelector('input[id="last_name"]');
+    var phone_primary = empForm.querySelector('input[id="phone_primary"]');
+    function checkEmail(email)
+    {
+      if(arr)
+      {
+
+        for(var i=0;i<arr.length;i++)
+        {
+
+            if(arr[i].email == email)
+            {
+              return true;
+            }
+            
+        }
+        return false;
+      }
+      return false;
+            
+    }
+
+    function checkmobile(mobile)
+    {
+      if(arr)
+      {
+
+        for(var i=0;i<arr.length;i++)
+        {
+
+            if(arr[i].phone_primary == mobile)
+            {
+              return true;
+            }
+            
+        }
+        return false;
+      }
+      return false;
+            
+    }
+
+    var sm = empForm.querySelectorAll('input');
+    var value = true;
+    sm.forEach(function(el)
+    {
+      var nu = el;
+      ssp = document.getElementById(nu.id);
+      var parent =ssp.parentElement;
+      var p = document.createElement('p');
+      if(ssp.value == "")
+        {
+          ssp.style.border="1px solid red";
+          p.setAttribute('class','help-block');
+          var sn = parent.querySelector('p');
+          if(sn == null)
+          {
+            
+            p.innerText="This fiels is requirded";
+            p.style.color="red";
+            p.style.marginTop="10px";
+            p.style.fontSize="12px";
+            parent.append(p);
+            
+            
+          }
+          value = false;
+          
+        }
+        else if(checkEmail(email.value) && nu.name == "email")
+        {
+            
+                var emp = ssp.parentElement.querySelector('p');
+                if(emp)
+                {
+                  emp.remove();
+                }
+                ssp.style.border="1px solid red";
+                p.innerText="Email Alraedy Taken";
+                p.style.color="red";
+                p.setAttribute('class','help-block');
+                p.style.marginTop="10px";
+                p.style.fontSize="12px";
+                parent.append(p);
+                value = false;
+               
+             
+        }
+        else if(checkmobile(phone_primary.value) && nu.name == "phone_primary")
+        {
+            
+                var emp = ssp.parentElement.querySelector('p');
+                if(emp)
+                {
+                  emp.remove();
+                }
+                ssp.style.border="1px solid red";
+                p.innerText="Phone No. Alraedy Taken";
+                p.style.color="red";
+                p.setAttribute('class','help-block');
+                p.style.marginTop="10px";
+                p.style.fontSize="12px";
+                parent.append(p);
+                value = false;
+               
+             
+        }
+        else
+        {
+                var emp = ssp.parentElement.querySelector('p');
+                if(emp)
+                {
+                  emp.remove();
+                }
+                ssp.style.border="1px solid green";   
+                
+        }
+
+
+    });
+
+    if(value)
+    {
+
+       var empDeatails = 
+       {
+          email:email.value,
+          Password:password.value,
+          name : first_name.value+" "+last_name.value,
+          phone_primary:phone_primary.value
+       }
+       
+       let arr;
+       arr = localStorage.getItem('emplogin');
+       if(arr == null)
+       {
+          arr = [];
+       }
+       else
+       {
+          arr = JSON.parse(arr);
+       }
+
+       arr.push(empDeatails);
+       localStorage.setItem('emplogin',JSON.stringify(arr));
+              
+       var main = document.getElementById("emp_form");
+       let p = document.createElement('p');
+       p.style.textAlign="center";
+       p.style.paddingTop="20px";
+       p.style.color="green";
+       p.innerHTML="<b>You have successfully Registered :)</b>";
+       main.insertBefore(p,main.childNodes[0]);
+      
+       setTimeout(function() {
+        main.querySelector('p').remove();
+       }, 3000);
+        
+        setTimeout(function() {
+        location.reload();
+       }, 5000);
+
+       email.value="";
+       password.value="";
+       first_name.value="";
+       last_name.value="";
+       phone_primary.value="";
+
+       
+     
+
+    }
+  }
+
+
+</script>
+
+
+<script>
+  var arr1 = JSON.parse(localStorage.getItem('emplogin'));
+  var empButton = document.getElementById("submit");
+  empButton.addEventListener('click',addFunction2);
+
+  function addFunction2()
+  {
+    
+    var empForm2 = document.getElementById("emplogin");
+    var email = empForm2.querySelector('input[id="log_email"]');
+    var password = empForm2.querySelector('input[id="log_password"]');
+    
+    
+    
+    var sm = empForm2.querySelectorAll('input');
+    var value = true;
+    sm.forEach(function(el)
+    {
+      var nu = el;
+
+      ssp = document.getElementById(nu.id);
+      var parent =ssp.parentElement;
+      var p = document.createElement('p');
+      if(ssp.value == "")
+        {
+          ssp.style.border="1px solid red";
+          p.setAttribute('class','help-block');
+          var sn = parent.querySelector('p');
+          if(sn == null)
+          {
+            
+            p.innerText="This fiels is requirded";
+            p.style.color="red";
+            p.style.marginLeft="13px";
+            p.style.fontSize="12px";
+            parent.append(p);
+            
+            
+          }
+          value = false;
+          
+        }
+        else
+        {
+                var emp = ssp.parentElement.querySelector('p');
+                if(emp)
+                {
+                  emp.remove();
+                }
+                ssp.style.border="1px solid green";   
+                
+        }
+
+
+    });
+
+    if(value)
+    {
+       var isValidate = false;
+        var num = arr1.forEach(function(va)
+        {
+             if(va.email == email.value && va.Password == password.value)
+             {
+                isValidate = true;
+                localStorage.setItem('login',JSON.stringify({email:email.value,name:va.name}))
+                setTimeout(function () {
+                  window.location.href="./newpost.html";
+                }, 2000);
+                
+              }
+              
+        });
+        var main = document.getElementById("main");
+        let p = document.createElement('p');
+        if(isValidate)
+        {
+          p.style.textAlign="center";
+          p.style.paddingTop="20px";
+          p.style.color="green";
+          p.innerHTML="<b>You have successfully Login :)</b>";
+        }
+        else
+        {
+          p.style.textAlign="center";
+          p.style.paddingTop="20px";
+          p.style.color="red";
+          p.innerHTML="<b>Invalid Credentials (:</b>"; 
+        }
+       main.insertBefore(p,main.childNodes[0]);
+      
+       setTimeout(function() {
+        main.querySelector('p').remove();
+       }, 5000);
+      //  var empDeatails = 
+      //  {
+      //     email:email.value,
+      //     Password:password.value,
+      //     name : first_name.value+" "+last_name.value,
+      //     phone_primary:phone_primary.value
+      //  }
+
+      //   console.log(empDeatails);
+       
+      //  let arr;
+      //  arr = localStorage.getItem('emplogin');
+      //  if(arr == null)
+      //  {
+      //     arr = [];
+      //  }
+      //  else
+      //  {
+      //     arr = JSON.parse(arr);
+      //  }
+
+      //  arr.push(empDeatails);
+      //  localStorage.setItem('emplogin',JSON.stringify(arr));
+       
+      //  email.value="";
+      //  password.value="";
+
+       
+     
+
+    }
+  }
+</script>
